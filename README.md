@@ -1,3 +1,5 @@
 # JS Course
 ## Learning JavaScript
-Initally learnt conditional statements and loops...
+
+<h2>Initally learnt...</h2>
+ 
