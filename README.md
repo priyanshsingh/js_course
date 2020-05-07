@@ -1,3 +1,3 @@
 # JS Course
 ## Learning JavaScript
-Initally learnt loops
+Initally learnt conditional statements and loops...
