@@ -1,8 +1,10 @@
-// printing odd numbers from 1, till the desired number x
+// skipping successive numbers from x, till the desired number y
 
-var x = 20
-var y = 1
-  while (x<y){
+var x = 2  //-------------- starting number
+var y = 49 //-------------- desired terminating number
+  
+  while (x<y)
+  {
     console.log(x);
     x=x+2 ;
   }
