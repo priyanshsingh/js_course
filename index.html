@@ -5,17 +5,24 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>JavaScript Course</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 </head>
 
-<body bgcolor=#ece3ff>
+<body>
 	
   <script type="text/javascript" src="alert.js"></script>
 
   
       <center>
-        <h1 style="font-family:Trebuchet MS">Hello World </h1>
-        <h2 style="font-family:verdana;">This is the Index HTML file for this course. </h2>
-        <h4 style="font-family:Trebuchet MS;">To see the use of the Javascript Files, comment out the other file's script tags except foe the one which you want see in action.</h4>
+        <div class="container">
+          <div class="jumbotron">
+            <strong><h1 style="font-family:Trebuchet MS">Hello World </h1><br>
+            <h2 style="font-family:verdana;">This is the Index HTML file for this course. </h2></strong><br>
+            <h4 style="font-family:Trebuchet MS;">To see the use of the Javascript Files, comment out the other file's script tags except foe the one which you want see in action.</h4><br>
+  </div>
+        
+        
+    
 
         <br><hr><br>
             <p style="font-family:Trebuchet MS;">
@@ -23,28 +30,27 @@
               I hope you'll find it useful...
             </p>
 
-        <button type="button" onclick="alertFn()">Click Me!</button>
+        <button type="button" onclick="alertFn()" class="btn btn-primary">Click Me!</button>
           
           <br>
           <br>
           <hr>
 
-          <h3 style="font-family:verdana;" id="head1">---DOM Manipulations---</h3>
+          <h3 style="font-family:verdana;" id="head1">--- DOM Manipulations ---</h3>
 
-        <button type="btn1" onclick="alertFn2()">Click to get alert Msg of Heading</button>
+        <button type="btn1" onclick="alertFn2()" class="btn btn-warning">Click to get alert Msg of Heading</button>
 
           <br>
           <br>
           <hr>
 
-          <h3 style="font-family:verdana;" id="head2">---Log In Check---</h3>
-
-          <input id="usrnm" placeholder="UserName"><br><br>
-          <input id="pass1" type="password" placeholder="Enter Password"><br><br>
-          <input id="pass2" type="password" placeholder="Re-Enter Password"><br><br>
-        <button type="btn1" onclick="alertFn3()">Check Password Match</button>
-
-        
+          <h3 style="font-family:verdana;" id="head2">--- Log In Check ---</h3>
+            <div class="col-xl-8">
+              <input id="usrnm" placeholder="UserName" class="row"><br>
+              <input id="pass1" type="password" placeholder="Enter Password" class="row"><br>
+              <input id="pass2" type="password" placeholder="Re-Enter Password" class="row"> <br>
+              <button type="btn1" onclick="alertFn3()" class="btn btn-danger">Check Password Match</button>
+            </div>
         </center>
     
   </body>
