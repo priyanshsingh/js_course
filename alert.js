@@ -8,7 +8,13 @@ function alertFn3()
 {
   var x = document.getElementById('pass1').value;
   var y = document.getElementById('pass2').value;
-  if(x==y)
+  
+  if(x==="" || y==="")
+    {
+      alert(`You didn't enter any password!!!`)
+    }
+
+  else if(x==y)
     {
       alert('Passwords Matched')
     }
