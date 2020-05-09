@@ -51,14 +51,17 @@
           <br>
           <br>
           <hr>
+<div class= "container">
+  <div class= "row">
+    <div class="col-sm">
+          <h3 style="font-family:verdana;" id="head1">---DOM Manipulations---</h3>
 
-          <h3 style="font-family:verdana;" id="head1">--- DOM Manipulations ---</h3>
-
-        <button type="btn1" onclick="alertFn2()" class="btn btn-warning">Click to get alert Msg of Heading</button>
-
+        <button type="button" onclick="alertFn2()" class="btn btn-warning">Click to get alert Msg of Heading</button>
+    </div>
           <br>
           <br>
           <hr>
+    <div class="col-sm">
 
           <h3 style="font-family:verdana;" id="head2">--- Log In Check ---</h3>
             <div class="col-xl-8">
@@ -67,8 +70,21 @@
               <input id="pass2" type="password" placeholder="Re-Enter Password" class="row"> <br>
               <button type="btn1" onclick="alertFn3()" class="btn btn-danger">Check Password Match</button>
             </div>
-        </center>
-    
+    </div>
+          <br>
+          <br>
+          <hr>
+
+    <div class="col-sm">
+          <h3 style="font-family:verdana;" id="head1">--- RadioButton ---</h3>
+
+        <input type="radio" id="rd1" name="grp1" value="JavaScript"> JavaScript </input><br>
+        <input type="radio" id="rd2" name="grp1" value="NodeJS"> NodeJS </input><br><br>
+        <button type="button" onclick="radioFn()" class="btn btn-success">Click Here!!!</button>
+    </div>
+  </div>
+</div>
+
   </body>
 </html>
 

@@ -4,6 +4,15 @@ function alertFn()
 }
 
 
+
+function alertFn2()
+{
+  var x = document.getElementById('head1').innerHTML;
+  alert(`The heading is ${x}`);
+}
+
+
+
 function alertFn3()
 {
   var x = document.getElementById('pass1').value;
@@ -24,8 +33,17 @@ function alertFn3()
 }
 
 
-function alertFn2()
+
+function radioFn()
 {
-  var x = document.getElementById('head1').innerHTML;
-  alert(`The heading is ${x}`);
+  var x = document.getElementsByName('grp1');
+
+    if(x[0].checked)
+      alert("The selected channel is "+ x[0].value);
+    else if(x[1].checked)
+      alert("The selected channel is "+ x[1].value);
+    else
+      alert("No channel is selected");
+
+
 }
