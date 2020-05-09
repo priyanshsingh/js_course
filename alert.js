@@ -49,3 +49,12 @@ function radioFn()
 }
 
 
+function selectbox() {
+  var x = document.getElementById('selectbox')
+  for (i = 0; i < x.length; i ++){
+    if(x[i].selected){
+      alert(x[i].value);
+      break;
+    }
+  }
+}
