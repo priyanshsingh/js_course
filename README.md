@@ -8,3 +8,11 @@
  <li>Functions</li>
  <li>Arrays</li>
  <li>Objects</li>
+ <li>DOM Manipulations</li>
+ <li>User Input by TextBox</li>
+ <li>User Input by RadioButton</li>
+ <li>User Input by SelectBox</li>
+ <li>getElementByID Method</li>
+ <li>getElementByTagName Method</li>
+ <li>getElementByClassName Method</li>
+ 
