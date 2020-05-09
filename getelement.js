@@ -7,3 +7,17 @@ function getname()
       x[i].style.color="Red";
     }
 }
+
+
+
+
+function getclass()
+{
+  var y = document.getElementsByClassName("para");
+
+    for (i=0; i<y.length; i++)
+    {
+      y[i].style.size=30;
+     
+    }
+}
