@@ -4,6 +4,6 @@ function getname()
 
     for (i=0; i<x.length; i++)
     {
-      p[i].style.color="Red";
+      x[i].style.color="Red";
     }
 }
