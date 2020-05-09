@@ -16,6 +16,10 @@
       opacity:1;
     }
 
+    button{
+     margin: 5px 5px 5px 5px;
+    }
+
   </style> 
 </head>
 
@@ -79,7 +83,7 @@
           <hr>
 
     <div class="col-sm">
-          <h3 style="font-family:verdana;" id="head1">--- RadioButton ---</h3>
+        <h3 style="font-family:verdana;" id="head1">--- RadioButton ---</h3>
 
         <input type="radio" id="rd1" name="grp1" value="JavaScript"> JavaScript </input><br>
         <input type="radio" id="rd2" name="grp1" value="NodeJS"> NodeJS </input><br><br>
@@ -89,11 +93,11 @@
 </div><br><hr>
 
 <div class="container">
-  <div class= "row">.
+  <div class= "row">
 
     <div class="col-sm"> 
 
-        <select id="selectbox">
+        <select class="form-control form-control-md" id="selectbox">
           <option value="JavaScript">JavaScript</option>
           <option value="Python">Python</option>
           <option value="HTML">HTML</option>
@@ -130,10 +134,21 @@
       <img id="img1" src = "old.jpg" width=100% onmouseover="mouseover()" onmouseout="mouseout()">
     </div>
   </div> 
-</div>       
-       
-       
-      
+</div> 
+<br><hr><br>
+
+<div class="container">
+  <div class= "row">
+    <div class="col-sm">
+      <form>
+        <input id="username" placeholder="UserName" class="row"><br>
+        <input id="password" type="password" placeholder="Enter Password" class="row"><br>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+         
+    </div>
+  </div> 
+</div> 
 
   </body>
 </html>
