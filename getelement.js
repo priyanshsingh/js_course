@@ -17,7 +17,7 @@ function getclass()
 
     for (i=0; i<y.length; i++)
     {
-      y[i].style.size=30;
+      y[i].style.color="Blue";
      
     }
 }
