@@ -28,7 +28,7 @@
 
  function regularExpressions(){
   var inputusername = document.getElementById("inputusername").value
-  var r = /E00/ ;
+  var r = /E00/i ;
 
     if(r.test(inputusername)){
       alert ("Valid Username");
