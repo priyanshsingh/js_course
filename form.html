@@ -45,7 +45,7 @@
 <div class="container">
   <div class= "row">
     <div class="col-sm">
-      <h3 style="font-family:verdana;" id="head1">---Validation #1---</h3>    
+      <h3 style="font-family:verdana;" id="head1">Validation #1</h3>    
         <form action="redirect.html" onsubmit="return submitFn()">
           <input id="uname" placeholder="UserName" class="row">
             <label id="lblun" style="color : red; visibility : hidden;"> <strong>Invalid</strong></label><br>
@@ -58,7 +58,7 @@
     </div>
 
     <div class="col-sm">
-      <h3 style="font-family:verdana;" id="head1">---Reg expressions #1---</h3><br>
+      <h3 style="font-family:verdana;" id="head1">Reg expressions #1</h3><br>
       
       <form action="redirect.html" onsubmit="return regularExpressions()">
       <input id="inputusername" placeholder="Enter Username" class="row">
@@ -80,9 +80,34 @@
           <button type="button" class="btn btn-danger" onclick="mobileValidation()">Enter Number</button>
         
     </div>
-
   </div> 
 </div> 
+
+<br><hr><br>
+
+<div class="container">
+  <div class= "row">
+    <div class="col-sm">
+      <h3 style="font-family:verdana;" id="head4">Email Validation</h3>    
+        
+          <input id="unvalid" placeholder="UserName" class="row">
+            <label id="lblvalid" style="color : red; visibility : hidden;"> <strong>Valid</strong></label><br>
+                     
+            <button type="button" class="btn btn-danger" onclick="emailValid">Submit</button>
+        
+    </div>
+
+    <div class="col-sm">
+      <h3 style="font-family:verdana;" id="head5">Reg expressions #1</h3><br>
+
+    </div>
+
+    <div class="col-sm">
+      <h3 style="font-family:verdana;" id="head6">Reg exp + Mobile No. Validation</h3><br>
+      
+    </div>
+  </div> 
+</div>
 
 
 </center>
