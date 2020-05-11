@@ -1,4 +1,4 @@
- function submitFn(){
+  function submitFn(){
   var un = document.getElementById("uname").value
   var pw = document.getElementById("pword").value
 
@@ -43,18 +43,21 @@
 
 
 function mobileValidation(){
-  var mobno = document.getElementById(mobileNo.).value
-  var validateNo = /^[7-9]\d$/;
+  var mobno = document.getElementById("mobileNo").value
+  var validateNo = /^[7-9]\d{9}$/;
 
     if(validateNo.test(mobno)){
-      document.getElementById = ("labelmob").innerhtml = "Valid  Mobile No.";
-      document.getElementById = ("labelmob").style.visibility : visible;
-      document.getElementById = ("labelmob").style.color : Green;      
+      document.getElementById("lablemob").innerHTML = "Valid Mobile Number";
+      document.getElementById("lablemob").style.visibility = "visible";
+      document.getElementById("lablemob").style.color = "Green"; 
+   
+          
     }
 
     else{
-      document.getElementById = ("labelmob").innerhtml = "Invalid  Mobile No.";
-      document.getElementById = ("labelmob").style.visibility : visible;
-      document.getElementById = ("labelmob").style.color : Red;
+      document.getElementById("lablemob").innerHTML = "Invalid Mobile Number";
+      document.getElementById("lablemob").style.visibility = "visible";
+      document.getElementById("lablemob").style.color = "Red";
+      
     }
 }
