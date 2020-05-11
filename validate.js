@@ -61,3 +61,24 @@ function mobileValidation(){
       
     }
 }
+
+
+function emailValid(){
+  var email = document.getElementById("enteredEmail").value
+  var validateEmail = /^([a-zA-Z0-9\.-]+)@([a-zA-Z0-9-]+).([a-z]{2,8}).([a-z]){2,8}$/;
+
+    if(validateEmail.test(email)){
+      document.getElementById("lblvalid").innerHTML = "Valid Email";
+      document.getElementById("lblvalid").style.visibility = "visible";
+      document.getElementById("lblvalid").style.color = "Green"; 
+      document.getElementById("lblvalid").style.fontWeight = "Bold";
+          
+    }
+
+    else{
+      document.getElementById("lblvalid").innerHTML = "Invalid Email";
+      document.getElementById("lblvalid").style.visibility = "visible";
+      document.getElementById("lblvalid").style.color = "Red";
+      document.getElementById("lblvalid").style.fontWeight = "Bold";
+    }
+}
