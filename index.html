@@ -29,9 +29,6 @@
 	</script>
 	<script type="text/javascript" src="hover.js">
 	</script>
-	<script type="text/javascript" src="validate.js">
-	</script>
-
 
 	<center>
 
@@ -41,8 +38,8 @@
 
 
 					<strong><h1 style="font-family:Trebuchet MS">Hello World </h1><br>
-            <h2 style="font-family:verdana;">This is the Index HTML file for this course. </h2></strong><br>
-            <h4 style="font-family:Trebuchet MS;">To see the use of the Javascript Files, comment out the other file's script tags except foe the one which you want see in action.</h4><br>
+            <h2 style="font-family:verdana;">This is the index.html file for this course. </h2></strong><br>
+            <h4 style="font-family:Trebuchet MS;">To see the use of the Javascript Files, comment out the other file's script tags except for the one which you want see in action.</h4><br>
           </div>  
         </div>
       </div>  
@@ -99,7 +96,7 @@
   <div class= "row">
 
     <div class="col-sm"> 
-
+          <h3 style="font-family:verdana;" id="head1">---Select Box---</h3>
         <select class="form-control form-control-md" id="selectbox">
           <option value="JavaScript">JavaScript</option>
           <option value="Python">Python</option>
@@ -117,7 +114,7 @@
 
     <div class="col-sm"> 
 
-
+        <h3 style="font-family:verdana;" id="head1">--Para_Select--</h3>
        <p class= "para">This is Paragraph 01</p>
        <p>This is Paragraph 02 </p>
        <p class= "para">This is Paragraph 03</p>
@@ -134,24 +131,14 @@
     </div> 
 
     <div class="col-sm">
+      <h3 style="font-family:verdana;" id="head1">---Image_change_on_Hover---</h3>
       <img id="img1" src = "old.jpg" width=100% onmouseover="mouseover()" onmouseout="mouseout()">
     </div>
   </div> 
-</div> 
-<br><hr><br>
+</div> <br><hr><br>
 
-<div class="container">
-  <div class= "row">
-    <div class="col-sm">
-      <form action="redirect.html" onsubmit="return submitFn()">
-        <input id="uname" placeholder="UserName" class="row"><br>
-        <input id="pword" type="password" placeholder="Enter Password" class="row"><br>
-        <button type="submit" class="btn btn-success">Submit</button>
-      </form>
-         
-    </div>
-  </div> 
-</div> 
+To check how the validations are applied in a form, <a href="form.html">Click here</a>
 
+      <br>
   </body>
 </html>
