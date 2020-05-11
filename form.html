@@ -31,9 +31,9 @@
 				<div class="jumbotron shadow-lg p-10 mb-20">
 
 
-					<strong><h1 style="font-family:Trebuchet MS">Form with Validations</h1><br>
+					<strong><h1 style="font-family:Trebuchet MS">Validations & Regular Expressions</h1><br>
             <h2 style="font-family:verdana;">This is a form which consists of several validations on the user. </h2></strong><br>
-            <h4 style="font-family:Trebuchet MS;">To see the use of the Javascript Files, comment out the other file's script tags except foe the one which you want see in action.</h4><br>
+            
           </div>  
         </div>
       </div>  
@@ -46,11 +46,15 @@
   <div class= "row">
     <div class="col-sm">
       <h3 style="font-family:verdana;" id="head1">---Validation #1---</h3>
-      <form action="redirect.html" onsubmit="return submitFn()">
-        <input id="uname" placeholder="UserName" class="row"><br>
-        <input id="pword" type="password" placeholder="Enter Password" class="row"><br>
-        <button type="submit" class="btn btn-success">Submit</button>
-      </form>
+        <form action="redirect.html" onsubmit="return submitFn()">
+          <input id="uname" placeholder="UserName" class="row">
+            <label id="lblun" style="color : red; visibility : hidden;"> <strong>Invalid</strong></label><br>
+          <input id="pword" type="password" placeholder="Enter Password" class="row">
+              <label id="lblpw" style="color : red; visibility : hidden;"> <strong>Invalid</strong></label>
+              <label id="lblpw2" style="color : red; visibility : hidden;"> <strong>Short</strong></label><br><br>
+             
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
          
     </div>
   </div> 

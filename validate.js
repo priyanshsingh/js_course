@@ -4,19 +4,24 @@
 
     if(un.trim()==""){
     
-      alert("Blank username!!!")
+      // alert("Blank username!!!");
+      uname.style.border = "dotted 2px red";
+      document.getElementById("lblun").style.visibility="visible";
       return false
     }
     else if (pw.trim()==""){
-      alert("Blank password!!!")
+      pword.style.border = "dotted 2px red";
+      document.getElementById("lblpw").style.visibility="visible";      
       return false
     }
     else if(pw.trim().length<5){
-      alert("Password too short")
+      alert("Password too short");
       return false
     }
     else {
       return true
     }
  }
+
+
 
