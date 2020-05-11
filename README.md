@@ -19,4 +19,6 @@
  <li>Validations on Username and Password</li>
  <li>Regular Expressions on Username</li>
  <li>Validation on Mobile Number using Regular Expressions</li>
+ <li>Validation on Email using Regular Expressions</li>
+ 
  
