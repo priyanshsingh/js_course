@@ -15,4 +15,8 @@
  <li>getElementByID Method</li>
  <li>getElementByTagName Method</li>
  <li>getElementByClassName Method</li>
+ <li>mouseover and mouseout functions</li>
+ <li>Validations on Username and Password</li>
+ <li>Regular Expressions on Username</li>
+ <li>Validation on Mobile Number using Regular Expressions</li>
  
