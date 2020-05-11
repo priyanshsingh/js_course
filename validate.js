@@ -26,4 +26,16 @@
  }
 
 
+ function regularExpressions(){
+  var inputusername = document.getElementById("inputusername").value
+  var r = /E00/ ;
 
+    if(r.test(inputusername)){
+      alert ("Valid Username");
+      return true
+    }
+    else{
+      alert ("Invalid Username")
+      return false
+    }
+ }

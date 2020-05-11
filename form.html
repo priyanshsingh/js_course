@@ -45,18 +45,29 @@
 <div class="container">
   <div class= "row">
     <div class="col-sm">
-      <h3 style="font-family:verdana;" id="head1">---Validation #1---</h3>
+      <h3 style="font-family:verdana;" id="head1">---Validation #1---</h3>    
         <form action="redirect.html" onsubmit="return submitFn()">
           <input id="uname" placeholder="UserName" class="row">
             <label id="lblun" style="color : red; visibility : hidden;"> <strong>Invalid</strong></label><br>
-          <input id="pword" type="password" placeholder="Enter Password" class="row">
+          <input id="pword" type="password" placeholder="Enter Password" class="row" >
               <label id="lblpw" style="color : red; visibility : hidden;"> <strong>Invalid</strong></label>
               <label id="lblpw2" style="color : red; visibility : hidden;"> <strong>Short</strong></label><br><br>
              
           <button type="submit" class="btn btn-success">Submit</button>
         </form>
-         
     </div>
+
+    <div class="col-sm">
+      <h3 style="font-family:verdana;" id="head1">---Reg expressions #1---</h3><br>
+      
+      <form action="redirect.html" onsubmit="return regularExpressions()">
+      <input id="inputusername" placeholder="Enter Username" class="row">
+        <label id="labelname" style="color : red; visibility : hidden;"> <strong>Invalid UserName</strong></label><br>
+      
+      <button type="submit" class="btn btn-primary">Enter</button>
+
+    </div>
+
   </div> 
 </div> 
 
