@@ -39,3 +39,22 @@
       return false
     }
  }
+
+
+
+function mobileValidation(){
+  var mobno = document.getElementById(mobileNo.).value
+  var validateNo = /^[7-9]\d$/;
+
+    if(validateNo.test(mobno)){
+      document.getElementById = ("labelmob").innerhtml = "Valid  Mobile No.";
+      document.getElementById = ("labelmob").style.visibility : visible;
+      document.getElementById = ("labelmob").style.color : Green;      
+    }
+
+    else{
+      document.getElementById = ("labelmob").innerhtml = "Invalid  Mobile No.";
+      document.getElementById = ("labelmob").style.visibility : visible;
+      document.getElementById = ("labelmob").style.color : Red;
+    }
+}
