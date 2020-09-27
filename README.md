@@ -1,5 +1,5 @@
 # JS Course
-## Learning JavaScript
+## Learning JavaScript Online
 
 <h3>Initally learnt...</h3>
 <ul>
